@@ -8,9 +8,9 @@ namespace Contacts
 {
     public class BussinessLogicLayer
     {
-        private DataAccesLayer _dataAccesLayer;
+        private Conexion _dataAccesLayer;
         public BussinessLogicLayer() {
-            _dataAccesLayer= new DataAccesLayer();
+            _dataAccesLayer= new Conexion();
         }
         public Contact SaveContact(Contact contact)
         {

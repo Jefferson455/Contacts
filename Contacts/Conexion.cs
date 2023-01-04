@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Contacts
 {
-    public class DataAccesLayer
+    public class Conexion
     {
         //Conexión a base datos SQLSERVER
-        private SqlConnection conn = new SqlConnection("Password=jefferson45x;Persist Security Info=True;User ID=sa;Initial Catalog=CrudCSharp;Data Source=DESKTOP-45-JFF");
+        private SqlConnection conn = new SqlConnection("Password=Jefferson45x;Persist Security Info=True;User ID=sa;Initial Catalog=CrudCSharp;Data Source=DESKTOP-45-JFF");
 
         public void InsertContact(Contact contact)
         {
