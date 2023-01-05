@@ -10,7 +10,7 @@ namespace Contacts
     public class Conexion
     {
         //Conexión a base datos SQLSERVER
-        private SqlConnection conn = new SqlConnection("Password=Jefferson45x;Persist Security Info=True;User ID=sa;Initial Catalog=CrudCSharp;Data Source=DESKTOP-45-JFF");
+        private SqlConnection conn = new SqlConnection("Password=Jefferson45x;Persist Security Info=True;User ID=sa;Initial Catalog=CrudCSharp;Data Source=PF1BE9MT-AUTOP");
 
         public void InsertContact(Contact contact)
         {
