@@ -49,5 +49,9 @@ namespace Contacts
 
         #endregion
 
+        private void gridContacts_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

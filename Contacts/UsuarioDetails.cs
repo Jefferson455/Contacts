@@ -69,6 +69,10 @@ namespace Contacts
             contact.Address = txtAddress.Text;
             _bussinessLogicLayer.SaveContact(contact);
         }
-        
+
+        private void UsuarioDetails_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

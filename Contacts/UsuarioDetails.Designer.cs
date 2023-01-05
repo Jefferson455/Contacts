@@ -153,6 +153,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UsuarioDetails";
             this.Text = "UsuarioDetails";
+            this.Load += new System.EventHandler(this.UsuarioDetails_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
